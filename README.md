@@ -21,7 +21,7 @@ Al final queda una tabla de 9400 filas con 21 columnas.
 Modelo en estrella: una tabla de medidas (número medio de clientes, Ventas por clientes,pedidos totales, crecimiento de ventas año tras año...), una tabla de hechos (`Facts_Sales`, una fila por línea
 de producto en un pedido) y dimensiones de cliente, producto, ubicación y fecha.
 
-![Modelo en estrella](images/imagen2.png)
+![Modelo en estrella](imagen2.png)
 
 ## Hallazgos
 “El análisis de [N] pedidos muestra que las ventas [crecen/caen] un [X] % interanual, con [Y] % concentrado en el último trimestre. [Categoría] genera el mayor volumen, pero [subcategoría] opera con margen [bajo/negativo] debido a descuentos elevados. 12 clientes generan el 10 % de las ventas, por lo que recomiendo mejorar planes de fidelizacion. En el 2018 menos del 2% fueron clientes nuevos convendria centarrase en campañas para captar mas clientes. Los productos mas demandados fueron.. que tambien fueron los más rentables.
