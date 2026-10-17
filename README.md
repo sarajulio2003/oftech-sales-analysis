@@ -14,7 +14,7 @@ En este informe se centra en:
 ## Demo
 ### 1. Análisis general de ventas
 
-![Página 1](ventas.png)
+![Página 1](Ventas.png)
 
 **Qué muestra:** ventas totales, beneficio, margen, clientes y crecimiento
 interanual, junto con la evolución mensual frente al año anterior, el reparto
@@ -31,7 +31,7 @@ subcategorías con pérdidas.
 
 ### 2. Análisis de producto
 
-![Página 2](producto.png)
+![Página 2](Producto.png)
 
 **Qué muestra:** concentración de ventas por subcategoría (Pareto), estacionalidad
 por categoría y dos tablas comparando las subcategorías que más aportan con las que
