@@ -1,6 +1,6 @@
 # OFTech: informe de ventas, productos y clientes en Power BI
 Business Analysis
-OFTech es una empresa estadounidense online fundada en 2015 distribuidor de mobiliario, tecnología y material de oficina en Estados Unidos.
+OFTech es una empresa estadounidense online fundada en 2015.Se trata de un distribuidor de mobiliario, tecnología y material de oficina en Estados Unidos.
 
 > Nota: la empresa es ficticia. Los datos proceden del dataset público
 > Superstore (Kaggle).
