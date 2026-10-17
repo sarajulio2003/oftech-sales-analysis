@@ -10,8 +10,18 @@ En este informe se centra en:
 -rendimiento de los productos: ¿qué lineas son las que más se venden?¿Cuales aportan un mayor beneficio? 
 -la fidelidad de los clientes:¿qué porcentaje de clientes son nuevos y recurrenetses?¿ Cuanto duinero gastan en la empresa?
 
+## Datos
+- **Fuente:**  [Superstore Dataset (Kaggle)](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
+  
+- **Limpieza:** detecté un error de separador decimal que inflaba `Sales`.
+Al final queda una tabla de 9400 filas con 21 columnas.
+## Modelado de datos
+Modelo en estrella: una tabla de medidas (número medio de clientes, Ventas por clientes,pedidos totales, crecimiento de ventas año tras año...), una tabla de hechos (`Facts_Sales`, una fila por línea
+de producto en un pedido) y dimensiones de cliente, producto, ubicación y fecha.
 
-## Demo
+![Modelo en estrella](imagen2.png)
+
+
 ### 1. Análisis general de ventas
 
 ![Página 1](Ventas.png)
@@ -61,17 +71,6 @@ retención, los mayores clientes y la relación entre número de pedidos y venta
 
 **Recomendación:** mantener la fidelización y reforzar la captación de nuevos
 clientes, que casi no crece.
-
-## Datos
-- **Fuente:**  [Superstore Dataset (Kaggle)](https://www.kaggle.com/datasets/vivek468/superstore-dataset-final)
-  
-- **Limpieza:** detecté un error de separador decimal que inflaba `Sales`.
-Al final queda una tabla de 9400 filas con 21 columnas.
-## Modelado de datos
-Modelo en estrella: una tabla de medidas (número medio de clientes, Ventas por clientes,pedidos totales, crecimiento de ventas año tras año...), una tabla de hechos (`Facts_Sales`, una fila por línea
-de producto en un pedido) y dimensiones de cliente, producto, ubicación y fecha.
-
-![Modelo en estrella](imagen2.png)
 
 ## Conclusiones
 El negocio crece (+20,3 % en 2018) y tiene una base de clientes muy fiel
