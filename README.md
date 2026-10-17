@@ -73,8 +73,11 @@ de producto en un pedido) y dimensiones de cliente, producto, ubicación y fecha
 
 ![Modelo en estrella](imagen2.png)
 
-## Hallazgos
-“El análisis de [N] pedidos muestra que las ventas [crecen/caen] un [X] % interanual, con [Y] % concentrado en el último trimestre. [Categoría] genera el mayor volumen, pero [subcategoría] opera con margen [bajo/negativo] debido a descuentos elevados. 12 clientes generan el 10 % de las ventas, por lo que recomiendo mejorar planes de fidelizacion. En el 2018 menos del 2% fueron clientes nuevos convendria centarrase en campañas para captar mas clientes. Los productos mas demandados fueron.. que tambien fueron los más rentables.
+## Conclusiones
+El negocio crece (+20,3 % en 2018) y tiene una base de clientes muy fiel
+(retención del 86,9 %), pero dos puntos frenan su potencial: la rentabilidad de
+Furniture y de tres subcategorías con pérdidas, y una captación de clientes
+nuevos casi estancada (11 en 2018).
 
 ## Herramientas
 Power BI, Power Query, DAX, modelado dimensional.
